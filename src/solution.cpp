@@ -3,6 +3,8 @@
 
 int Solution::rangeBitwiseAnd(int left, int right)
 {
+    if(!left || !right){ return 0; }
+    
     int comp{1}, result{0};  // 'comp' will act as the comparator for bitwise and operation
     for(int bit{0}; bit<32; ++bit)
     {

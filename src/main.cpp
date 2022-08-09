@@ -4,7 +4,6 @@
 #include<climits>
 #include"../inc/solution.hpp"
 
-
 int main()
 {
 	std::cout << Solution().rangeBitwiseAnd(5,7);  // 4
